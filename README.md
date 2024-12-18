@@ -29,10 +29,10 @@ simplicidade e usabilidade, utilizando tecnologias modernas para o front-end e o
 ## 🚀 Como Executar o Projeto
 
 Ative o ambiente virtual
-  bash - ´source myenv/bin/activate´
-  cmd - ´myenv\Scripts\Activate.bat´
-  powershell - ´myenv\Scripts\Activate.ps1´
+  bash - `source myenv/bin/activate`
+  cmd - `myenv\Scripts\Activate.bat`
+  powershell - `myenv\Scripts\Activate.ps1`
 
 Instale todas bibliotecas necessárias
-  ´pip install -r requirements.txt´
-  ´npm install´
+  `pip install -r requirements.txt`
+  `npm install`
