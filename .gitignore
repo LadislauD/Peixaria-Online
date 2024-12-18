@@ -1,0 +1,63 @@
+# Geral
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.env
+.env.local
+.env.development
+.env.production
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+instance/
+*.egg-info/
+*.pytest_cache/
+*.coverage
+.cache/
+.Python
+.mypy_cache/
+.vscode/
+.pytest_cache/
+coverage.xml
+nosetests.xml
+pylint.log
+pyre-check/
+
+# Virtual Environment
+venv/
+.env/
+
+# Flask specific
+instance/
+
+# ReactJS
+node_modules/
+build/
+dist/
+*.cache/
+*.tmp
+*.map
+.eslintcache
+yarn.lock
+.pnp.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Others
+coverage/
