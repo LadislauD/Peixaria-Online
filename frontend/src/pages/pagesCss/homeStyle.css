@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    /*background-color: red;*/
+}
+
+
+.cardi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    margin: 1em 0px;
+    text-align: center;
+    padding: 1%;
+}
+
+.cardi img {
+    width: 100px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+.circular {
+    background-color: red;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

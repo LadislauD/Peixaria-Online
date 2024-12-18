@@ -1,0 +1,8 @@
+.p-button{
+    /*width: 200px;*/
+    padding: 20px;
+    background-color: #067ABB;
+    border-radius: 8px;
+    justify-content: center;
+    text-decoration: none;
+}

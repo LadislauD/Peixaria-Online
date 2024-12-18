@@ -1,0 +1,156 @@
+.p-menubar {
+    background-color: #067ABB;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    border: 0;
+}
+
+.p-menubar .p-menubar-root-list>.p-menuitem>.p-menuitem-content .p-menuitem-link .p-menuitem-text,
+.p-menubar .p-menubar-root-list>.p-menuitem>.p-menuitem-content .p-menuitem-link {
+    color: black;
+}
+
+.p-menubar {
+    border-radius: 0;
+    padding: 0;
+    position: relative;
+}
+
+.p-menubar-end {
+    padding: 1%;
+}
+
+.p-menubar-root-list {
+    /*margin-right: 55em;*/
+}
+
+.p-avatar {
+    background-color: #D9D9D9;
+    padding: 10px;
+}
+
+.p-submenu-icon,
+.p-menuitem-icon,
+.p-menuitem-text {
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    top: 105%;
+    right: 5%;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: #c0bebe;
+}
+
+.menuBar{
+    justify-content: space-around;
+}
+
+@media(max-width: 768px){
+    .searchBar{
+        display: none;
+    }
+
+    .p-menubar, footer{
+        width: 100%;
+    }
+
+    .p-menubar-end{
+        order: 3;
+        padding-right: 4%;
+    }
+
+    .menuBar{
+        justify-content: space-between !important;
+    }
+
+    .menuBar .p-menubar-start{
+        order: 2;
+    }
+}
+
+@media(max-width: 425px){
+    .searchBar{
+        display: none;
+    }
+
+    .p-menubar, footer{
+        width: 26.7rem;
+    }
+
+    .p-menubar-end{
+        order: 3;
+        padding-right: 4%;
+    }
+
+    .menuBar{
+        justify-content: space-between !important;
+    }
+
+    .menuBar .p-menubar-start{
+        order: 2;
+    }
+}
+
+@media(max-width: 375px){
+    .searchBar{
+        display: none;
+    }
+
+    .p-menubar, footer{
+        width: 25rem;
+    }
+
+    .p-menubar-end{
+        order: 3;
+        padding-right: 4%;
+    }
+
+    .menuBar{
+        justify-content: space-between !important;
+    }
+
+    .menuBar .p-menubar-start{
+        order: 2;
+    }
+}
+
+@media(max-width: 320px) {
+    .searchBar{
+        display: none;
+    }
+
+    .p-menubar, footer{
+        width: 25rem;
+    }
+
+    .p-menubar-end{
+        order: 3;
+        padding-right: 4%;
+    }
+
+    .menuBar{
+        justify-content: space-between !important;
+    }
+
+    .menuBar .p-menubar-start{
+        order: 2;
+    }
+}

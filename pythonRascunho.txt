@@ -1,0 +1,30 @@
+def insert(table):
+  mycursor = mydb.cursor()
+  sql = "INSERT INTO" + table + "("+get_fields(table.keys())+") VALUES ("+get_fields(table.values())+")"
+  mycursor.execute(sql)
+  mydb.commit()
+
+
+def get_fields(table, fields, values):
+  values=""
+  fields=""
+  limit = len(table)
+  i = 0
+  for x in table:
+    i = i + 1
+    fields+= x
+    values+=table[fields]
+    if i != limit:
+      fields+=" "
+      values+=" "
+  fields = fields.replace(' ', ',')
+  values = values.replace(' ', ',')
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  password="password",
+  database="PeixariaBanda"
+)
+
+

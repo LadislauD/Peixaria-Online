@@ -1,0 +1,30 @@
+.sign-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    gap: 7px;
+}
+
+.title-div{
+    width: 100%;
+    text-align: center;
+}
+
+.p-inputtext{
+    width: 410px;
+}
+
+.p-password-input{
+    width: 410px;
+}
+
+.p-button{
+    margin: 10px;
+}
+
+.picker-style{
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+}
