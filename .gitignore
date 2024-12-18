@@ -32,6 +32,7 @@ pyre-check/
 # Virtual Environment
 venv/
 .env/
+myenv/
 
 # Flask specific
 instance/
